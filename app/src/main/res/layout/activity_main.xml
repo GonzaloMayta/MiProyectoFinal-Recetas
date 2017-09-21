@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="gonzalo.recetas.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondo2" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingButton"
+        android:layout_width="77dp"
+        android:layout_height="111dp"
+        android:layout_gravity="top|center_horizontal"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini"
+        app:layout_anchor="@+id/imageView"
+        app:layout_anchorGravity="bottom|center_horizontal"
+        app:srcCompat="@drawable/ic_restaurant_menu_black_24dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

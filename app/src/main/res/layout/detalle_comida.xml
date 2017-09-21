@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323235"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="192dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:background="#36f4c5"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Pie de foto"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="INGREDIENTES"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:textColor="#ffffff"
+        android:text="Ingredientes:"
+        android:textStyle="bold" />
+
+</LinearLayout>
